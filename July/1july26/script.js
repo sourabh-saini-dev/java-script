@@ -43,46 +43,48 @@
 
 //  abc().then(res=> console.log(res))
 
-const students = [
-  {
-    id: 1,
-    name: "Rahul",
-    age: 22,
-    city: "Jaipur",
-    marks: 85,
-  },
 
 
-  {
-    id: 2,
-    name: "Priya",
-    age: 20,
-    city: "Delhi",
-    marks: 92,
-  },
+// const students = [
+//   {
+//     id: 1,
+//     name: "Rahul",
+//     age: 22,
+//     city: "Jaipur",
+//     marks: 85,
+//   },
 
-  {
-    id: 3,
-    name: "Amit",
-    age: 23,
-    city: "Jaipur",
-    marks: 78,
-  },
-  {
-    id: 4,
-    name: "Neha",
-    age: 21,
-    city: "Mumbai",
-    marks: 88,
-  },
-  {
-    id: 5,
-    name: "Rohit",
-    age: 24,
-    city: "Delhi",
-    marks: 65,
-  },
-];
+
+//   {
+//     id: 2,
+//     name: "Priya",
+//     age: 20,
+//     city: "Delhi",
+//     marks: 92,
+//   },
+
+//   {
+//     id: 3,
+//     name: "Amit",
+//     age: 23,
+//     city: "Jaipur",
+//     marks: 78,
+//   },
+//   {
+//     id: 4,
+//     name: "Neha",
+//     age: 21,
+//     city: "Mumbai",
+//     marks: 88,
+//   },
+//   {
+//     id: 5,
+//     name: "Rohit",
+//     age: 24,
+//     city: "Delhi",
+//     marks: 65,
+//   },
+// ];
 // Questions
 
 // Sabhi students ke name ka array banao.
@@ -145,6 +147,123 @@ const students = [
 //    console.log(ans);
 
 // Example output:
+
+
+
+
+
+
+
+
+
+const employees = [
+  {
+    id: 1,
+    name: "Rahul",
+    age: 24,
+    department: "IT",
+    salary: 50000,
+    city: "Jaipur",
+    experience: 2
+  },
+  {
+    id: 2,
+    name: "Priya",
+    age: 28,
+    department: "HR",
+    salary: 60000,
+    city: "Delhi",
+    experience: 5
+  },
+  {
+    id: 3,
+    name: "Amit",
+    age: 26,
+    department: "Finance",
+    salary: 55000,
+    city: "Mumbai",
+    experience: 3
+  },
+  {
+    id: 4,
+    name: "Neha",
+    age: 30,
+    department: "IT",
+    salary: 75000,
+    city: "Pune",
+    experience: 7
+  },
+  {
+    id: 5,
+    name: "Rohit",
+    age: 23,
+    department: "Sales",
+    salary: 45000,
+    city: "Delhi",
+    experience: 1
+  },
+  {
+    id: 6,
+    name: "Sneha",
+    age: 27,
+    department: "IT",
+    salary: 70000,
+    city: "Jaipur",
+    experience: 4
+  },
+  {
+    id: 7,
+    name: "Karan",
+    age: 29,
+    department: "Marketing",
+    salary: 65000,
+    city: "Mumbai",
+    experience: 6
+  },
+  {
+    id: 8,
+    name: "Pooja",
+    age: 25,
+    department: "HR",
+    salary: 52000,
+    city: "Jaipur",
+    experience: 2
+  }
+];
+//
+
+// Sabhi employees ke name ka array banao.
+
+
+    // let ans =  employees.map((val)=> val.name)
+    //   console.log(ans);
+      
+// Sirf IT department ke employees nikalo.
+
+    //  let ans = employees.filter((val)=> val.department)
+    //   console.log(ans);
+      
+// Jinki salary 60000 se jyada hai unhe nikalo.
+
+        // let ans = employees.filter((val)=> val.salary > 6000)
+        // console.log(ans);
+        
+// Sabhi salaries ka total nikalo.
+
+        //  let ans =  employees.reduce((acc,val)=>{
+        //   return acc + val.salary
+        //  },0)
+        //   console.log(ans);
+          
+
+       
+         
+// Average salary nikalo
+// let ans = employees.reduce((acc, val) => {
+        //   return acc+val.salary;
+        // },0)
+        //  let average  = ans/employees.length
+        //  console.log(average);
 
 
 
