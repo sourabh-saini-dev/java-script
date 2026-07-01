@@ -223,17 +223,11 @@
 //    return acc
 //  })
 //  console.log(ans)
- 
+
 
 // let  ans = students.filter((val)=> val.age  >= 21)
-// console.log(ans);
-
-
+// console.log(ans)
 //  let ans = students.filter((val)=> val.city === "Delhi" || val.city === "Jaipur")
 //  console.log(ans);
-
-
-
- 
             
          
