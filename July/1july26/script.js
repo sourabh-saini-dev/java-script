@@ -51,6 +51,8 @@ const students = [
     city: "Jaipur",
     marks: 85,
   },
+
+
   {
     id: 2,
     name: "Priya",
@@ -58,6 +60,7 @@ const students = [
     city: "Delhi",
     marks: 92,
   },
+  
   {
     id: 3,
     name: "Amit",
