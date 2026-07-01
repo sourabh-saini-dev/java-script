@@ -60,7 +60,7 @@ const students = [
     city: "Delhi",
     marks: 92,
   },
-  
+
   {
     id: 3,
     name: "Amit",
@@ -145,3 +145,6 @@ const students = [
 //    console.log(ans);
 
 // Example output:
+
+
+
