@@ -1,3 +1,4 @@
+const { log } = require("node:console");
 
 
        const products = [
@@ -70,9 +71,11 @@
 // Easy
 
 // Sabhi products ke names ka array banao.
-             let ans = products.filter((val)=> val.name)
-              console.log(ans)
+            //  let ans = products.map((val)=> val.name)
+            //   console.log(ans)
 // Sirf Electronics products nikalo.
+        let ans = products.filter((val) => val.category === "Electronics")
+           console.log(ans)
 // Jinki price 5000 se jyada hai unhe nikalo.
 // Sabhi products ki total price nikalo.
 // Average price nikalo.
