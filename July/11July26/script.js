@@ -12,7 +12,7 @@
           let res="";
         for( let i = 0; i<str.length; i++){
              if(!linearsearch(str[i],res)){
-                 res = res+str[i];
+                 res = res+str[i].toUpperCase();
              }
         }
         return res;
