@@ -80,19 +80,38 @@ const { log } = require("node:console")
               
 //  longest subarray with sum = k
          
-            let arr = [ 1,2,3,1,1,1,1]
-                 let k = 6;
+            // let arr = [ 1,2,3,1,1,1,1]
+            //      let k = 6;
 
-                 let maxlength = 0;
+            //      let maxlength = 0;
+
+            //      for( let i = 0; i<arr.length; i++){
+            //           let sum = 0;
+
+            //           for(let j = 0; j<arr.length; j++){
+            //              sum = sum+arr[j]
+            //               if(sum===k){
+            //                   maxlength = Math.max(maxlength, j-i+1)
+            //               }
+            //           }
+            //      }
+            //        console.log(maxlength)
+
+
+// count sumarrays k = 2 
+              let arr = [1,1,1]
+                let k = 2;
+
+                 let count = 0;
 
                  for( let i = 0; i<arr.length; i++){
-                      let sum = 0;
+                     let sum = 0; 
 
-                      for(let j = 0; j<arr.length; j++){
-                         sum = sum+arr[j]
-                          if(sum===k){
-                              maxlength = Math.max(maxlength, j-i+1)
-                          }
-                      }
+                     for( let j = 0; j<arr.length; j++){
+                          sum = sum+arr[j]
+                            if(sum === k){
+                                 count++;
+                            }
+                     }
                  }
-                   console.log(maxlength)
+                  console.log(count)
