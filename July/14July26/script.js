@@ -99,19 +99,40 @@ const { log } = require("node:console")
 
 
 // count sumarrays k = 2 
-              let arr = [1,1,1]
-                let k = 2;
+            //   let arr = [1,1,1]
+            //     let k = 2;
 
-                 let count = 0;
+            //      let count = 0;
 
-                 for( let i = 0; i<arr.length; i++){
-                     let sum = 0; 
+            //      for( let i = 0; i<arr.length; i++){
+            //          let sum = 0; 
 
-                     for( let j = 0; j<arr.length; j++){
-                          sum = sum+arr[j]
-                            if(sum === k){
-                                 count++;
-                            }
+            //          for( let j = 0; j<arr.length; j++){
+            //               sum = sum+arr[j]
+            //                 if(sum === k){
+            //                      count++;
+            //                 }
+            //          }
+            //      }
+            //       console.log(count)
+
+
+
+
+
+             let arr = [1,2,3,4,5]
+               let k = 9;
+
+               for( let i = 0; i<arr.length; i++){
+                  let sum = 0; 
+                  for( let j = i; j<arr.length; j++){
+                     sum = sum+arr[j]
+                     if(sum===k){
+                       
+                       console.log(arr.slice(i, j+1))
+                    //    break;
                      }
-                 }
-                  console.log(count)
+                  }
+               }
+               
+                
