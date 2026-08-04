@@ -1,21 +1,21 @@
-const { log } = require("node:console");
 
-let p = new Promise((resolve, reject) => {
-    let a = 10;
 
-    if (a) {
-        resolve("resolved");
-    } else {
-        reject("rejected");
-    }
-});
+// let p = new Promise((resolve, reject) => {
+//     let a = 10;
 
-p.then((res) => {
-    console.log(res);
+//     if (a) {
+//         resolve("resolved");
+//     } else {
+//         reject("rejected");
+//     }
+// });
+
+// p.then((res) => {
+//     console.log(res);
 // })
 // .catch((err) => {
 //     console.log(err);
 // })
 // .finally(()=>{
-//      console.log("finally")
+//       console.log("finally")
 // })
