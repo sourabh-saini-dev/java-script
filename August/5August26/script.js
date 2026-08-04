@@ -66,6 +66,11 @@
 //   console.log(ans);
   
  
+    // let arr = [43,56,87,65,-54 ,- 67]
+    //  let ans =  arr.filter((val)=>val>0 )
+    //  let even = ans.filter((val)=> val %2 === 0)
+    //  console.log(even);
+     
   
 
     
