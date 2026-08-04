@@ -1,4 +1,3 @@
-const { log } = require("node:console");
 
 
    console.log(Math.ceil(1000+Math.random()*9000))
