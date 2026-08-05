@@ -1,0 +1,41 @@
+
+
+
+    // let arr = ["sourahkumarsaini"]
+    // let ans = arr.map((val)=> val+"@gmail.com")
+    // console.log(ans);
+
+
+    //   let arr = [45,65,100]
+    //   let ans = arr.reduce((acc,val)=> {
+    //     return acc+val
+    //   },0)
+    //   console.log(ans);
+
+
+    //  let arr = [ 2,2,3,4,2,5,6]
+
+    //  let ans = arr.filter((val)=>{
+    //     return  arr.indexOf(val)===arr.lastIndexOf(val)
+    //  })
+    //   console.log(ans);
+
+      let arr = [2,2,3,4,2,5,6]
+
+       for(let i = 0; i<arr.length; i++){
+         let count = 0;
+          for( let j = 0; j<arr.length; j++){
+             if(arr[i] === arr[j]){
+                 count++
+             }
+          }
+          if(count==1){
+            console.log(arr[i]);
+            
+          }
+       }
+      
+
+
+      
+    
