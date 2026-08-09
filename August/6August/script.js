@@ -79,7 +79,24 @@
 
       // }
       //   console.log(palindrame("madam"));
-        
+
+
+
+      //  let str = "my name is sourabh saini "
+          
+      //  let ans = str.split(" ").map((val)=>val.charAt(0).toUpperCase()+val.slice(1)).join("");
+      //    console.log(ans);
+
+
+
+
+       let str = "my name is sourabh saini" 
+
+        let ans = str.split("").filter((ch)=> "a,e,i,o,u".includes(ch)  ).length
+           
+         console.log(ans);
+         
+         
         
 
       
