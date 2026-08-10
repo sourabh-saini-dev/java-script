@@ -105,6 +105,89 @@
                     //    let sum = ans.reduce((acc,val)=> acc+val,0)
                         
                     //       console.log(sum);
+
+
+
+                      //  how to do rest function 
+
+
+                        // function abc(...a){
+                        //    console.log(a);
+                        // }
+                        // abc(1,2,3,4,5,6,7)
+
+
+
+
+                        //spread  array object ko kholne ke liye ya expend karne ke liye hota hai
+                         
+
+                        //    let arr = [ 45,65,76,89]
+                        //    let arr1 = [ 1,2]
+                        //    let arr2 = [...arr,...arr1]
+                        //     console.log(arr2);
+
+
+
+
+
+                        //shallow copy
+
+
+                        //  let arr = [ 12,3,45,67]
+                        //  let  arr1 = arr
+                       
+                        //  arr[0] = 100
+                        //  arr1 = 200
+                        //    console.log(arr);
+                        //    console.log(arr1);
+                           
+
+
+
+                        //  let arr = [ 12,3,45,67]
+                        //  let  arr1 = structuredClone(arr)
+
+                        //  arr[0] = 100
+                        //  arr[1] = 200
+                        //  console.log(arr);
+                        //  console.log(arr1);
+
+
+
+                        //  let arr = [ 12,3,45,67]
+                        //  let  arr1 = structuredClone(arr)
+
+                        //   arr[0] = 500
+                        //   arr1[0]= 900
+                        //   console.log(arr);
+                        //   console.log(arr1);
+
+
+
+                         //D struching 
+
+                        //  let arr = [ 1,2,3,4,5]
+                        //  let[a,b,c,d,e] = arr
+                        //    console.log(arr);
+
+                          
+                           
+                            // console.log(4+2+"5"+2+"1");
+                            
+                          
+
+                         
+                         
+
+                            
+                           
+                           
+                           
+                            
+                          
+                           
+
                           
                       
                  
