@@ -27,9 +27,7 @@
 //              console.log(obj1);
              
                     
-         
-                 let a = 10;
-                    console.log(a);
+                
                     
-        
+            
    
