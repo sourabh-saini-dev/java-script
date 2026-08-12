@@ -65,26 +65,47 @@
 
 
 
-                    function fetchData(){
-                        return new Promise((resolve)=>{
-                            resolve("data")
-                        })
-                    }
-                    fetchData().then((res)=>{
-                         console.log(res);
+                    // function fetchData(){
+                    //     return new Promise((resolve)=>{
+                    //         resolve("data")
+                    //     })
+                    // }
+                    // fetchData().then((res)=>{
+                    //      console.log(res);
                          
-                    })
+                    // })
 
 
-                    async function abc(){
-                        console.log("start")
-                        let result = await fetchData()
-                        console.log(result)
-                        console.log("end")
+                    // async function abc(){
+                    //     console.log("start")
+                    //     let result = await fetchData()
+                    //     console.log(result)
+                    //     console.log("end")
 
-                    }
-                    abc()
+                    // }
+                    // abc()
 
+
+
+
+                     let arr = [1,2,3,40,0,9,0,8,0,0]
+                     let res = []
+                      for(let i = 0; i<arr.length; i++){
+                         if(arr[i] !== 0){
+                            res.push(arr[i])
+
+                         }
+
+                           }
+                         for(let j = 0; j<arr.length; j++){
+                            if(arr[j] === 0){
+                                res.push(arr[j])
+                          
+                            
+                             
+                         }
+                      }
+                       console.log(res);
                      
 
                   
