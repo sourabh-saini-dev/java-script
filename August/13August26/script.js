@@ -93,3 +93,12 @@
 
     //  let str = 'apple'
     //  console.log(`hello${str}`)
+
+
+    
+        // let str = "mango"
+        //   console.log("hello" , "mango")
+
+
+    //  let str = 'apple'
+    //  console.log(`hello${str}`)
