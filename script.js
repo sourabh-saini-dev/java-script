@@ -2,12 +2,25 @@
 
 
 
+  let  str = "my name is sourabh kumar saini ";
+   console.log(str.toUpperCase());
 
-             let a = 56;
-              let  b = 65 
-              
-              console.log(a -b);
-              
+
+
+    let str1 = "my name is sourabh i from kotputli behror ";
+     console.log(str.toLowerCase());
+
+
+
+
+    
+
+
+
+
+
+     
+   
 
 
 
