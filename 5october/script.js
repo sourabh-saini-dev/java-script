@@ -41,4 +41,11 @@ const { log } = require("node:console")
         //  console.log(average)
 
 
+
+         let arr = [23,54,67,98,90]
+          let arr1 = arr.filter((val,i)=>val>70)
+          
+          console.log(arr1)
+
+
     
