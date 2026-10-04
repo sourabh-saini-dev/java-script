@@ -63,6 +63,13 @@ const { log } = require("node:console")
             // let arr = ["hello my name is sourabh saini"]
             //  let a = arr.map((val,i)=> val.replaceAll(" ","") + "@gmail.com")
             //   console.log(a)
+
+
+
+                    
+            // let arr = [2,4,56]
+            //  let arr1 = arr.every((val,i)=> val%2 == 0)
+            //    console.log(arr1)
                
 
 
