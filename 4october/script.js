@@ -13,8 +13,14 @@
 
 
 
-         let str = "vidhya devi"
-          console.log(str.toLowerCase());
+        //  let str = "vidhya devi"
+        //   console.log(str.toLowerCase());
+
+
+
+        let str = " gurugram"
+         console.log(str.split());
+         
           
         
        
