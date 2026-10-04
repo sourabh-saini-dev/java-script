@@ -44,8 +44,8 @@ const { log } = require("node:console")
 
          let arr = [23,54,67,98,90]
           let arr1 = arr.filter((val,i)=>val>70)
-          
-          console.log(arr1)
+          let sum = arr1.reduce((acc,val)=> acc+val+0)
+          console.log(sum)
 
 
     
