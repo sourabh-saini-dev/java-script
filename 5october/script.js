@@ -34,4 +34,10 @@ const { log } = require("node:console")
 
 
 
+        let arr = [23,54,67,89]
+        let res = arr.filter((val,i)=>val>29)
+        let sum = res.reduce((acc,val)=> acc+val,0)
+         console.log(sum)
+
+
     
