@@ -7,6 +7,9 @@
     //   let arr = [1,2,3,4,5,6]
     //   let ans = arr.push(4)
     //     console.log(arr);
+
+const { log } = require("node:console")
+
         
 
 
@@ -16,3 +19,19 @@
     //     let sum = arr.reduce((acc,val)=> acc+val+0)
     //     console.log(sum);
         // arr.reduce aayega q ki yha par ans ek number hai wo array ki lenght define karne ke liye hai na ek new array return kar rha hai
+
+
+        // let arr = [1,2,3,4,5]
+        // let ans = arr.pop(1)
+        //  console.log(ans)
+
+
+
+
+        // let arr = [1,2,3,4,5]
+        //   let ans = arr.splice(4)
+        //    console.log(ans) 
+
+
+
+    
