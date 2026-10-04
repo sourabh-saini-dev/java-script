@@ -48,9 +48,17 @@ const { log } = require("node:console")
         //   console.log(sum)
 
 
-          let arr = [1,2,3,4,5,6,7,8,9]
-           let count = arr.map((val,i)=> val*2)
-            console.log(count)
+        //   let arr = [1,2,3,4,5,6,7,8,9]
+        //    let count = arr.map((val,i)=> val*2)
+        //     console.log(count)
+
+
+
+
+            let arr = ["sourabh kumar saini"]
+             let ans = arr.map((val,i)=> val+"@12345gmail.com")
+               console.log(ans);
+               
 
 
     
