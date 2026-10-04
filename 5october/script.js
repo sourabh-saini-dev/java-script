@@ -55,9 +55,14 @@ const { log } = require("node:console")
 
 
 
-            let arr = ["sourabh kumar saini"]
-             let ans = arr.map((val,i)=> val+"@12345gmail.com")
-               console.log(ans);
+            // let arr = ["sourabh kumar saini"]
+            //  let ans = arr.map((val,i)=> val+"@12345gmail.com")
+            //    console.log(ans);
+
+
+            // let arr = ["hello my name is sourabh saini"]
+            //  let a = arr.map((val,i)=> val.replaceAll(" ","") + "@gmail.com")
+            //   console.log(a)
                
 
 
