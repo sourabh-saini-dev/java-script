@@ -42,10 +42,15 @@ const { log } = require("node:console")
 
 
 
-         let arr = [23,54,67,98,90]
-          let arr1 = arr.filter((val,i)=>val>70)
-          let sum = arr1.reduce((acc,val)=> acc+val+0)
-          console.log(sum)
+        //  let arr = [23,54,67,98,90]
+        //   let arr1 = arr.filter((val,i)=>val>70)
+        //   let sum = arr1.reduce((acc,val)=> acc+val+0)
+        //   console.log(sum)
+
+
+          let arr = [1,2,3,4,5,6,7,8,9]
+           let count = arr.map((val,i)=> val*2)
+            console.log(count)
 
 
     
