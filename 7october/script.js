@@ -27,7 +27,9 @@
          
     let arr = [2,4,6,8,10]
      let arr1 = arr.map((val,i)=> val*2)
-         console.log(arr1)
+      let ans = arr1.reduce((acc,val)=> acc+val,0)
+      
+         console.log(ans)
     
     
    
