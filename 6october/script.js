@@ -12,13 +12,20 @@
 
 
 
-            let arr = [1,2,3,4,5]
+            // let arr = [1,2,3,4,5]
             
-             let arr1 = arr
-             arr[0] = 100
-             arr1[0] = 200
+            //  let arr1 = arr
+            //  arr[0] = 100
+            //  arr1[0] = 200
                 
-             console.log(arr1);
+            //  console.log(arr1);
+
+
+            function abc(...a){
+              console.log(a);
+              
+            }
+            abc(12,34,56,67)
              
 
 
