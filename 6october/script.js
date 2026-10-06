@@ -21,12 +21,16 @@
             //  console.log(arr1);
 
 
-            function abc(...a){
-              console.log(a);
+            // function abc(...a){
+            //   console.log(a);
               
-            }
-            abc(12,34,56,67)
+            // }
+            // abc(12,34,56,67)
              
+
+
+
+            
 
 
                 
