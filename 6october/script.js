@@ -8,6 +8,17 @@
             //     console.log(ans);
             // spread operater 
 
+             
+
+
+
+            let arr = [1,2,3,4,5]
+            
+             let arr1 = arr
+                 
+          
+             console.log(arr1);
+             
 
 
                 
