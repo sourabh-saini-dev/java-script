@@ -7,7 +7,27 @@
 
 
 
-   let str = "my name is sourabh kumar saini i from kotputli jaipur rajasthan ajmer"
-    console.log(str.split())
+//    let str = "my name is sourabh kumar saini i from kotputli jaipur rajasthan ajmer"
+//     console.log(str.split())
+
+  
+    // let arr =  [1,2,3,45]
+    //  let ans = arr.find((val,i)=> val>2)
+    //     console.log(ans)
+
+
+
+    // let arr = [2,4,6,8,10]
+    //  let arr1 = arr.map((val,i)=> val*2)
+    //      console.log(arr1)
+
+
+
+
+         
+    let arr = [2,4,6,8,10]
+     let arr1 = arr.map((val,i)=> val*2)
+         console.log(arr1)
+    
     
    
