@@ -21,7 +21,12 @@ const { log } = require("node:console")
                 //   console.log(typeof a)
 
 
-                  let str = 12345
-                   console.log(str.toFixed(16))
+                //   let str = 12345
+                //    console.log(str.toFixed(16))
+
+
+
+                let str = 12.456
+                 console.log(str.toPrecision(6))
                     
               
