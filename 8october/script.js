@@ -86,10 +86,29 @@ const { log } = require("node:console")
                 //  let even =  ans.map((val,i)=> val%2 == 0)
                 //   console.log(even);
 
-                   let a = [8,2,6,4]
-                   let res = a.every((val,i)=> val%2==0)
-                    let ans  = a.sort((a,b)=> a-b)
-                      console.log(ans)
+
+                //    let a = [8,2,6,4]
+                //    let res = a.every((val,i)=> val%2==0)
+                //     let ans  = a.sort((a,b)=> a-b)
+                //       console.log(ans)
+
+                //  let a = [ "hello ","js"]
+                //   let ans = a.join("")
+                //     console.log(ans);
+                    // array ke saare elements ko jodd kar string bnana 
+
+                //   let a = [ 1,2,3,4,5]
+                //    a.forEach((val,i)=>{
+
+                //      console.log(val,i)
+                    
+                //    })
+
+
+                   // array ke har element par callback function chlane ke kaam aata hai 
+
+                  
+                    
                   
 
                
