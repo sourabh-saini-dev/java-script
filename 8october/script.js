@@ -110,7 +110,67 @@ const { log } = require("node:console")
 
 
 
-                   
+                    // let obj = {
+                    //      name: " sourabh",
+                    //      city: "kotputli",
+                    //      role: "jaipur",
+                    // }
+
+                    // // console.log(obj)   // dot notion
+                    // console.log(obj["name"])// bracket notion
+                      
+
+                    // obj.city = "delhi"
+                    // delete obj.city
+                    // console.log(obj)
+
+
+
+
+                    // let obj = {
+                    //      name: "mohan kumar sharma",
+                    //      role: "sarund mata mandir",
+                    //       pincode: 321456,
+
+               
+
+                    // address: {
+                         
+                    //     city: " ahmadabad",
+                    //       Gmail: "sourabhsainiktp@gmail.com",
+
+                    //          }
+
+
+                    // }
+
+                    // console.log(obj)
+
+                    // console.log(obj.address.Gmail)  
+
+
+                    // delete   obj.address.city
+                    //  console.log(obj)    
+                    
+                    //  let obj1 = {...obj}  // shallow copy
+
+                    // let obj2 = structuredClone(obj)
+                    // obj.address.city = "kashmir"
+                    // console.log(obj)
+                    // console.log(obj2)   deep copy for obj 
+
+
+                    //  for( let keys in obj){
+                    //      console.log(keys)
+                    //  }
+           
+
+
+
+
+
+
+
 
                   
                     
