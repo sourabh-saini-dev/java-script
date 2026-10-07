@@ -43,6 +43,15 @@
              pincode: 54545,
            }
 
+        //    obj.city = "kotputli"
+
+        //    delete obj.city
+        //    console.log(obj)
+
+        //    console.log(obj.name)
+        //    console.log(obj.pincode)
+        //    console.log(obj["name"])
+
 
         //    console.log(obj)
 
@@ -51,6 +60,7 @@
         // }
           
        // it is use for iterate of obj keys 
+
 
     
     
