@@ -72,6 +72,12 @@ const { log } = require("node:console")
 
 
 
+
+            let arr = [ 45,43,76,89]
+             let ans = arr.find((val,i)=> val>56)
+              console.log(arr)
+
+
             
 
               
