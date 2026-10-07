@@ -46,9 +46,16 @@ const { log } = require("node:console")
 
 
           // isInterger yeh check karta hai ki pura number integer hai ya nhe 
-            let a = 123
+            // let a = 123
 
-             console.log(Number.isInteger(a))
+            //  console.log(Number.isInteger(a))
+
+
+
+
+            // let arr = [ 1,2,3,4]
+            //   let ans = arr.push(5)
+            //    console.log(arr)
 
                     
               
