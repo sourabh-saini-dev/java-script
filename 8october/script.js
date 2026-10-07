@@ -73,9 +73,26 @@ const { log } = require("node:console")
 
 
 
-            let arr = [ 45,43,76,89]
-             let ans = arr.find((val,i)=> val>56)
-              console.log(arr)
+            // let arr = [ 45,43,76,89]
+            //  let ans = arr.find((val,i)=> val>56)
+            //   console.log(arr)
+
+            // yah kise b element kise ek condition ko satisfy karta  karta hai to find ka use kia jata hai wha par
+
+
+
+                // let arr = [1,2,3,4,5,6]
+                //  let ans = arr.filter((val,i)=> val>2)
+                //  let even =  ans.map((val,i)=> val%2 == 0)
+                //   console.log(even);
+
+                   let a = [8,2,6,4]
+                   let res = a.every((val,i)=> val%2==0)
+                    let ans  = a.sort((a,b)=> a-b)
+                      console.log(ans)
+                  
+
+               
 
 
             
