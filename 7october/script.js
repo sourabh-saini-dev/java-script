@@ -24,12 +24,34 @@
 
 
 
+
+
          
-    let arr = [2,4,6,8,10]
-     let arr1 = arr.map((val,i)=> val*2)
-      let ans = arr1.reduce((acc,val)=> acc+val,0)
+    // let arr = [2,4,6,8,10]
+    //  let arr1 = arr.map((val,i)=> val*2)
+    //   let ans = arr1.reduce((acc,val)=> acc+val,0)
       
-         console.log(ans)
+    //      console.log(ans)
+
+
+
+
+
+    
+           let obj = {
+             name:  "sourabh saini",
+             pincode: 54545,
+           }
+
+
+        //    console.log(obj)
+
+        // for(let keys in obj){
+        //     console.log(keys)
+        // }
+          
+       // it is use for iterate of obj keys 
+
     
     
    
