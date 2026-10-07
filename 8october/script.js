@@ -26,7 +26,29 @@ const { log } = require("node:console")
 
 
 
-                let str = 12.456
-                 console.log(str.toPrecision(6))
+                // let str = 12.456
+                //  console.log(str.toPrecision(6))
+
+
+                //parsInt 
+                // yah kise b string me se number ko nikalta hai 
+
+                //   console.log(parseInt(12.34))
+                //    console.log(parseInt("12.23"))
+                //     console.log(parseInt(-12.23))
+                //      console.log(parseInt(12))
+                //       console.log(parseInt("acd/2"))
+                //        console.log(parseInt("2/asd"))
+                //         console.log(parseInt())
+
+
+
+
+
+          // isInterger yeh check karta hai ki pura number integer hai ya nhe 
+            let a = 123
+
+             console.log(Number.isInteger(a))
+
                     
               
