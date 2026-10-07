@@ -57,5 +57,24 @@ const { log } = require("node:console")
             //   let ans = arr.push(5)
             //    console.log(arr)
 
+
+
+            //  let arr = [ 1,2,3,4]
+            //   let ans = arr.pop()
+            //    console.log(arr)
+
+
+
+               
+            //  let arr = [ 1,2,3,4]
+            //   let ans = arr.unshift(0)
+            //    console.log(arr)
+
+
+
+            
+
+              
+
                     
               
