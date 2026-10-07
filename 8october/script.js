@@ -107,6 +107,11 @@ const { log } = require("node:console")
 
                    // array ke har element par callback function chlane ke kaam aata hai 
 
+
+
+
+                   
+
                   
                     
                   
