@@ -115,6 +115,58 @@
                 //   console.log(sum)
 
 
+        //   object.freeze()  ye obj me value ko lock kar deta hai
+                //    let obj = {
+                //      name: "sourah",
+
+                //    }
+
+                //    Object.freeze(obj)
+
+                //    obj.name = "seeta",
+                // //    delete obj.name  not delete
+
+                // //    obj.name = "akgg",  //not add
+                //    console.log(obj);
+
+
+
+
+
+
+                // object.seal    esme value ko delete nhe kar sakte add nhe kar sakte but update kar sakte hai
+
+
+                //   let obj = {
+                //     name: " ramu bhai sahab",
+                     
+                //   }
+
+                //   Object.seal(obj)
+
+                //   obj.name = "sourabh",  // update kar sakte hai
+                //   delete obj.name     //delete nhe kar sakte hai
+                //   obj.age = 45        // add nhe kar saktee hai 
+                //   console.log(obj)
+                   
+
+
+
+
+
+                // object.preventExtension()
+                 
+
+                // let obj = {
+                //     role:  "dfdgggfg",
+
+                // }
+
+                // Object.preventExtensions(obj)
+                //  obj.name = "seeta",    //
+                //  delete obj.name
+                //  console.log(obj)
+
 
 
 
