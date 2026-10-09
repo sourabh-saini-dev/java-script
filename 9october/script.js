@@ -82,18 +82,37 @@
 
                  // object.assign   esme obj ko merge karna hota hai 
                 
-                 let obj = {a:1}
-                 let obj1 = {b:2}
+                //  let obj = {a:1}
+                //  let obj1 = {b:2}
                 //  let ans = Object.assign({}, obj, obj1)
                 //  console.log(ans)
-                console.log(Object.keys(obj))
-                console.log(Object.keys(obj1))
+                // console.log(Object.keys(obj))
+                // console.log(Object.keys(obj1))
 
-                console.log(Object.values(obj))
-                 console.log(Object.values(obj1))
+                // console.log(Object.values(obj))
+                //  console.log(Object.values(obj1))
 
-                 let ans =  Object.values(obj1).map((val)=> val*2)
-                  console.log(ans)
+                //  let ans =  Object.values(obj1).map((val)=> val*2)
+                //   console.log(ans)
+
+
+
+                
+                 let obj = {a:1}
+                 let obj1 = {b:2}
+                 
+
+                 let ans = Object.assign({}, obj,obj1)
+
+                 console.log(Object.keys(ans))
+                 console.log(Object.values(ans))
+
+
+                 let res = Object.values(ans).map((val)=> val*2)
+                  console.log(res)
+
+
+
 
 
 
