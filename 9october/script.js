@@ -20,16 +20,18 @@
         //   }
 
 
-              let obj = {
-                name: "jaipur",
-                city: "abc",
-                pincode: 689999,
+            //   let obj = {
+            //     name: "jaipur",
+            //     city: "abc",
+            //     pincode: 689999,
 
-                state: {
-                    city: "delhi",
-                    village: "b",
-                }
-              }
+            //     state: {
+            //         city: "delhi",
+            //         village: "b",
+            //     }
+            //   }
+
+              
 
 
             //    for(let keys in obj){
@@ -42,3 +44,57 @@
 
             // delete obj.state.city
             // console.log(obj)
+
+
+
+
+            //  object.keys()     obj ki saari keys ko array me deta hai 
+            //  let obj = {
+            //      name: "abddjkg",
+            //      role:    5333,
+            //  }
+
+            //  console.log(Object.keys(obj))
+
+            //object.value  obj ki sari values array me deta hai 
+            //    let obj = {
+            //      name: "abddjkg",
+            //      role:    5333,
+            //  }
+
+            //  console.log(Object.values(obj))
+
+
+
+
+
+            //object.entries    ye obj ki keys values pair ko nested array me bdl deta hai
+
+            //      let obj = {
+            //      name: "abddjkg",
+            //      role:    5333,
+            //      city: "kotputli",
+            //      role: " makha ladle miau ghop ghop ghop ",
+            //  }
+
+            //  console.log(Object.entries(obj))
+
+
+                 // object.assign   esme obj ko merge karna hota hai 
+                
+                 let obj = {a:1}
+                 let obj1 = {b:2}
+                //  let ans = Object.assign({}, obj, obj1)
+                //  console.log(ans)
+                console.log(Object.keys(obj))
+                console.log(Object.keys(obj1))
+
+                console.log(Object.values(obj))
+                 console.log(Object.values(obj1))
+
+                 let ans =  Object.values(obj1).map((val)=> val*2)
+                  console.log(ans)
+
+
+
+                  
