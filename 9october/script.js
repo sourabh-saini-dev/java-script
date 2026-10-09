@@ -98,18 +98,21 @@
 
 
                 
-                 let obj = {a:1}
-                 let obj1 = {b:2}
+                //  let obj = {a:1}
+                //  let obj1 = {b:2}
                  
 
-                 let ans = Object.assign({}, obj,obj1)
+                //  let ans = Object.assign({}, obj,obj1)
 
-                 console.log(Object.keys(ans))
-                 console.log(Object.values(ans))
+                //  console.log(Object.keys(ans))
+                //  console.log(Object.values(ans))
 
 
-                 let res = Object.values(ans).map((val)=> val*2)
-                  console.log(res)
+                //  let res = Object.values(ans).map((val)=> val*2)
+
+                // //  let sum = Object.values(res).reduce((acc,val)=> acc+val,0)
+                // let sum = Object.values(res).filter((val)=> val>2)
+                //   console.log(sum)
 
 
 
