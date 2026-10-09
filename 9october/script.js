@@ -10,11 +10,28 @@
 
 
 
-          let obj = {
-             name: "abc",
-             role: "kotputli",
-          }
+        //   let obj = {
+        //      name: "abc",
+        //      role: "kotputli",
+        //   }
 
-          for(let keys in obj){
-             console.log(keys)
-          }
+        //   for(let keys in obj){
+        //      console.log(keys)
+        //   }
+
+
+              let obj = {
+                name: "jaipur",
+                city: "abc",
+                pincode: 689999,
+
+                state: {
+                    city: "delhi",
+                    village: "b",
+                }
+              }
+
+
+            //    for(let keys in obj){
+            //        console.log(keys)
+            //    }
