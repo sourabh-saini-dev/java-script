@@ -35,3 +35,10 @@
             //    for(let keys in obj){
             //        console.log(keys)
             //    }
+               
+           
+            // console.log(obj.state.city)
+
+
+            // delete obj.state.city
+            // console.log(obj)
