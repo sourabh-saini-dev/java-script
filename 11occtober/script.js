@@ -17,21 +17,39 @@
 
 
 
-             let obj = {a: 10} 
-             let obj1 = {b:20}
+            //  let obj = {a: 10} 
+            //  let obj1 = {b:20}
 
-             let ans =  Object.assign({}, obj,obj1)//  use for merge to array 
-             console.log(ans)
+            //  let ans =  Object.assign({}, obj,obj1)//  use for merge to array 
+            //  console.log(ans)
               
 
-              console.log(Object.keys(ans))
-               console.log(Object.values(ans))
+            //   console.log(Object.keys(ans))
+            //    console.log(Object.values(ans))
 
 
-               let ans1 = Object.values(ans).map((val)=> val*2)
-               let avg = Object.values(ans1).filter((val,i)=> val>20)
-               console.log(avg)
+            //    let ans1 = Object.values(ans).map((val)=> val*2)
+            //    let avg = Object.values(ans1).filter((val,i)=> val>20)
+            //    console.log(avg)
 
+
+
+                //   setTimeout(()=>{
+                //     console.log("hello")
+
+                //   },2000)
+
+
+                let a = 10
+                let id = setInterval(()=>{
+                    a--
+                    console.log(a)
+                     if(a<0){
+                     clearsetInterval(id)
+                    
+                     }
+
+                },1000)           // setInterval function
 
 
 
