@@ -28,7 +28,12 @@
                console.log(Object.values(ans))
 
 
-               
+               let ans1 = Object.values(ans).map((val)=> val*2)
+               let avg = Object.values(ans1).filter((val,i)=> val>20)
+               console.log(avg)
+
+
+
 
 
 
