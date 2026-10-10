@@ -34,3 +34,23 @@
         //      }
 
         // },2000)
+
+
+
+
+
+        //    Syncronous Programing
+
+        //  jab code line by line execute hota hai pura code complite hone ke baad he dusra code execute hota hai  ese he syncronous programing kahte hai 
+
+
+
+
+
+        //   Asyncronous programing 
+
+
+            // jab kise b kaam me time lagta hai jaise ki api call timer file read  to java script eska wait na karke ese browser api ko de deti hai or baaki code ko execute kar deti hai  ese he asyncronous programing kahte hai
+
+
+            
