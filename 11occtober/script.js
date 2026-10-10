@@ -58,8 +58,30 @@
                 //    let ans1 =   arr.map((val,i)=> val+2)
                 //     let res = ans1.filter((val,i)=> val%2 !=0)
                 //    console.log(res)
+                
 
 
+
+                //Promise  promise ek object hota hai jo represent karta hai  ek asyncronous code ko jo ki success hoga ya failure
+
+
+                 // eske 3 status hote hai 
+
+                 //1  pending     
+                 //   jab promise start to ho chuka ho par khtam nhe ho chuka to use pending bolte hai
+
+
+                 //2 fulfilled / resolve
+
+                 //  jab promise poora succesfully code complete ho chuka ho  use  resolve bolte hai
+
+
+                 //3  reject 
+
+                 //  jab promise poora pura reject ho chuka ho 
+
+
+                 
 
 
 
