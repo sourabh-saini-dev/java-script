@@ -81,7 +81,28 @@
                  //  jab promise poora pura reject ho chuka ho 
 
 
-                 
+
+                // let p = new Promise((resolve, reject)=>{
+                //     resolve(" code successfully done")
+
+                // },)
+                // console.log(p)
+
+
+
+                let p = new Promise(( resolve , reject)=>{
+                       reject(" reject code  with error")
+                },)
+                  
+                p.catch((err)=>{
+                    console.log(p)
+                })
+
+
+    
+
+
+
 
 
 
