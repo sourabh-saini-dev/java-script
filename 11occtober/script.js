@@ -12,4 +12,4 @@
 
                 
                let str1 = "my name is sourabh kumar saini i from kotputli jaipr rajashtan "
-                console.log(str1.toUpperCase())
+                console.log(str1.toLowerCase())
