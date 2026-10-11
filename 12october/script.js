@@ -88,6 +88,18 @@
 
 
 
+            5
+            //   promise.race me  jo b promise pahle aayega wo pahle resolve hoga 
+
+
+            //   let a =  Promise.resolve("1")
+            //   let p = Promise.resolve("4")
+            //   let w = Promise.resolve("6")
+
+            //    Promise.race([w,a,p]).then((res)=> console.log( "res",    res)).catch((err)=> console.log("err", err))
+
+
+
 
 
 
