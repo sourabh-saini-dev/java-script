@@ -100,6 +100,16 @@
 
 
 
+            6.
+                let a = Promise.reject ("my sourab")
+                 let b = Promise.reject("myhhfh sourab")
+                  let c = Promise.resolve ("my qqqsourab")
+
+
+                  Promise.any([b,a,c]).then((res)=> console.log(res)).catch((err)=> console.log("err"))
+
+
+
 
 
 
