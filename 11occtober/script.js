@@ -90,13 +90,32 @@
 
 
 
-                let p = new Promise(( resolve , reject)=>{
-                       reject(" reject code  with error")
-                },)
+                // let p = new Promise(( resolve , reject)=>{
+                //        reject(" reject code  with error")
+                // },)
                   
-                p.catch((err)=>{
-                    console.log(p)
-                })
+                // p.catch((err)=>{
+                //     console.log(p)
+                // })
+
+
+
+
+
+                let obj = {a: 2}
+                 let obj1 = {b:4}
+                //  console.log(Object.keys(obj))
+                //  console.log(Object.keys(obj1))
+
+                let ans = Object.assign({}, obj,obj1)
+                console.log(ans)
+
+                console.log(Object.keys(ans))
+                console.log(Object.values(ans))
+
+              let res =    Object.values(ans).map((val)=> val*2)
+                 let res1 = Object.values(res).filter((val)=> val>4)
+                  console.log(res1)                
 
 
     
