@@ -21,7 +21,26 @@
                     reject("code is not done from  me")
                 }
              })
+             
+
+             p.then((res)=> {
+                console.log(res)
+
+             })
+             p.catch((err)=>{
+                console.log("err")
+
+             })
+            p.finally(()=>{
+                console.log("finally")
+
+             })
              console.log(p)
+
+
     
 
 
+  
+
+                   
