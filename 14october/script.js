@@ -38,15 +38,17 @@
         //   console.log(p)
 
 
-              let a = 20
-             let p = setInterval(()=>{
-                   console.log(a)
-                      a--
+            //   let a = 20
+            //  let p = setInterval(()=>{
+            //        console.log(a)
+            //           a--
               
              
-                 if(a<0){
-                  clearInterval(p)
-                 }
-             },1000)
+            //      if(a<0){
+            //       clearInterval(p)
+            //      }
+            //  },1000)
         
-       
+
+
+               /
