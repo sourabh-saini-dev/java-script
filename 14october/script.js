@@ -23,5 +23,19 @@
 
     //   console.log(p)
 
+
+        // let p = new Promise((resolve, reject)=>{
+        //        let a = 10
+        //        if(a){
+        //         resolve("done")
+        //        }else{
+        //         reject("code in not done")
+        //        }
+        // })
+
+      
+        //   p.then((res)=> console.log(res)).catch((err)=> console.log("err"))
+        //   console.log(p)
+
         
        
