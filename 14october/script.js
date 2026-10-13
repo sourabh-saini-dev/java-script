@@ -2,7 +2,7 @@
 
 
 
-      let a = {a: 10}
+    //   let a = {a: 10}
     //   let b =  {b:20}
 
     //   let ans = Object.assign({}, a ,b)
@@ -37,5 +37,16 @@
         //   p.then((res)=> console.log(res)).catch((err)=> console.log("err"))
         //   console.log(p)
 
+
+              let a = 20
+             let p = setInterval(()=>{
+                   console.log(a)
+                      a--
+              
+             
+                 if(a<0){
+                  clearInterval(p)
+                 }
+             },1000)
         
        
