@@ -79,14 +79,14 @@
 
 //  JSON      eska use data ko store karne ke liye kia jata hai ek client se dusre client ya server se data ko exchange karna he json hota hai
 
-let obj = {
-  name: "jdkjfdkf",
-}
-//   console.log(obj)
+// let obj = {
+//   name: "jdkjfdkf",
+// }
+// //   console.log(obj)
 
-let ans1 = JSON.stringify(obj);
-console.log(ans1);
+// let ans1 = JSON.stringify(obj);
+// console.log(ans1);
 
-  localStorage.setItem("users", ans1)
+//   localStorage.setItem("users", ans1)
 
-  localStorage.removeItem("users")
+//   localStorage.removeItem("users")
