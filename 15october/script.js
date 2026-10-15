@@ -13,3 +13,11 @@
 
 //    let str = "good morning"
 //     console.log(str.slice(1,3))
+
+
+//    let a = 10;
+//   let p = setInterval(()=>{
+//       a--
+//       console.log(a)
+//       clearInterval(p)
+//   },2000)
