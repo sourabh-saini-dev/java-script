@@ -4,6 +4,12 @@
 
 
 
-let arr = ["my name  raman", "saini"]
-let ans = arr.join("")
-console.log(ans)
+// let arr = ["my name  raman", "saini"]
+// let ans = arr.join("")
+// console.log(ans)
+
+
+
+
+//    let str = "good morning"
+//     console.log(str.slice(1,3))
