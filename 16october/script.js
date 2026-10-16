@@ -41,7 +41,18 @@
             role: "kotputli",
         }
 
-        console.log(obj)
+        // console.log(obj)
+
+        // let obj1 =   {...obj}
+        let obj1 = structuredClone(obj)
+
+
+         
+        obj.name = "aman"
+        console.log(obj1)
+        // console.log(obj)
+        // console.log(obj1)
+
 
 
               
