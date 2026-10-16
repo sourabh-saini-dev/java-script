@@ -65,13 +65,32 @@
         //    console.log(ans)
 
 
-        let arr = [1,2,3,4]
-         let ans = arr.sort((a,b)=> b-a)
-         let res = ans.filter((val,i)=> val%2 !=0)
-         let res1 = res.filter((val,i)=> val>1)
-         console.log(res1)
+        // let arr = [1,2,3,4]
+        //  let ans = arr.sort((a,b)=> b-a)
+        //  let res = ans.filter((val,i)=> val%2 !=0)
+        //  let res1 = res.filter((val,i)=> val>1)
+        //  console.log(res1)
               
+            //    let arr = [1,2,3,4]
+            //     arr.forEach((val,index)=>{
+            //         console.log(val,index)
+            //     })
 
 
+
+            // let obj ={
+            //     name: "dkfdj",
+            //     age: 54,
+            // }
+
+
+            // for(let keys in obj){
+            //     console.log(keys)
+            // }
+                  
+                  
+                //   promise ek obj  hotah hai jo represent karta hai ek asyncronous code ko ki success hoga ya failure
+
+                
 
               
