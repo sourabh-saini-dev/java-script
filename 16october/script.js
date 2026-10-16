@@ -63,8 +63,15 @@
         //    let arr = [1,2,3,4,5]
         //    let ans = arr.sort((a,b)=> b-a)
         //    console.log(ans)
+
+
+        let arr = [1,2,3,4]
+         let ans = arr.sort((a,b)=> b-a)
+         let res = ans.filter((val,i)=> val%2 !=0)
+         let res1 = res.filter((val,i)=> val>1)
+         console.log(res1)
               
-        
+
 
 
               
