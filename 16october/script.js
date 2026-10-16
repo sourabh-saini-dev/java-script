@@ -36,23 +36,34 @@
 
 
 
-        let obj ={
-            name: "sourabh",
-            role: "kotputli",
-        }
+        // let obj ={
+        //     name: "sourabh",
+        //     role: "kotputli",
+        // }
 
-        // console.log(obj)
+        // // console.log(obj)
 
-        // let obj1 =   {...obj}
-        let obj1 = structuredClone(obj)
+        // // let obj1 =   {...obj}
+        // let obj1 = structuredClone(obj)
 
 
          
-        obj.name = "aman"
-        console.log(obj1)
-        // console.log(obj)
+        // obj.name = "aman"
         // console.log(obj1)
+        // // console.log(obj)
+        // // console.log(obj1)
 
+
+
+        //  let arr = [3,4,5,6,7,8,6]
+        //  let ans = arr.sort((a,b)=> a-b)
+        //  console.log(ans)
+
+
+        //    let arr = [1,2,3,4,5]
+        //    let ans = arr.sort((a,b)=> b-a)
+        //    console.log(ans)
+              
 
 
               
