@@ -91,6 +91,17 @@
                   
                 //   promise ek obj  hotah hai jo represent karta hai ek asyncronous code ko ki success hoga ya failure
 
-                
+
+
+                let arr = [12,77,55,78,90]
+                let ans = arr.filter((val,i)=> val%2 === 0)
+                let res = ans.reduce((acc,val)=> {
+                    return acc+val
+
+                },0)
+                console.log(res)
+                   
+
+
 
               
