@@ -17,14 +17,31 @@
 
 
 
-          let a = {a : 5}
-          let b = {b : 10}
-          let ans = Object.assign({}, a, b)
-          console.log(ans)
+        //   let a = {a : 5}
+        //   let b = {b : 10}
+        //   let ans = Object.assign({}, a, b)
+        //   console.log(ans)
 
-          console.log(Object.keys(ans))
-          console.log(Object.values(ans))
+        //   console.log(Object.keys(ans))
+        //   console.log(Object.values(ans))
 
-          let res =  Object.values(ans).map((val)=> val*4)
-         let res1  = Object.values(res).reduce((acc,val)=> acc+val,0)
-          console.log(res1)
+        //   let res =  Object.values(ans).map((val)=> val*4)
+        //  let res1  = Object.values(res).reduce((acc,val)=> acc+val,0)
+        //   console.log(res1)
+
+        
+        // let arr = ["mango", "apple"]
+        // let ans = arr.join(" ")
+        // console.log(ans)
+
+
+
+        let obj ={
+            name: "sourabh",
+            role: "kotputli",
+        }
+
+        console.log(obj)
+
+
+              
