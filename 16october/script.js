@@ -93,14 +93,26 @@
 
 
 
-                let arr = [12,77,55,78,90]
-                let ans = arr.filter((val,i)=> val%2 === 0)
-                let res = ans.reduce((acc,val)=> {
-                    return acc+val
+                // let arr = [12,77,55,78,90]
+                // let ans = arr.filter((val,i)=> val%2 === 0)
+                // let res = ans.reduce((acc,val)=> {
+                //     return acc+val
 
-                },0)
-                console.log(res)
-                   
+                // },0)
+                // console.log(res)
+                                                    
+
+
+                // let obj = {
+                //     name: "sourabh",
+                //     age: 34,
+                //     state: "Rajasthan"
+                // }
+
+                // // console.log(obj)
+                // console.log(Object.entries(obj))
+
+
 
 
 
