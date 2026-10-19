@@ -11,4 +11,5 @@
 
 let arr = [ 4,56,7,4,74]
  let ans = arr.find((val,i)=> val>7)
- console.log(ans)
+ let res = ans*2
+ console.log(res)
