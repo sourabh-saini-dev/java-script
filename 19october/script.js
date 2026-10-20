@@ -9,7 +9,7 @@
 //  console.log(ans)
 
 
-let arr = [ 4,56,7,4,74]
- let ans = arr.find((val,i)=> val>7)
- let res = ans*2
- console.log(res)
+// let arr = [ 4,56,7,4,74]
+//  let ans = arr.find((val,i)=> val>7)
+//  let res = ans*2
+//  console.log(res)
