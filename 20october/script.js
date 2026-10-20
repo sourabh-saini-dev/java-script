@@ -16,5 +16,11 @@
 // console.log(str.at())
 
 // let str = " mango"
-//  console.log(str.charAt(1))
+//  console.log(str.charAt(1))    
+
+
+
+    // let  a  = 12
+    // let b = 45
+    // console.log(a + b)
 
