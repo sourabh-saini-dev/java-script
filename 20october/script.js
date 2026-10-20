@@ -24,3 +24,9 @@
     // let b = 45
     // console.log(a + b)
 
+
+    // let a = 56
+    //    a = 45
+
+    //    console.log(a)
+
