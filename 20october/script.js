@@ -6,5 +6,12 @@
 // console.log(a + b);
 
 
-let   str = " my name is sourah jatin kumar saini"
- console.log(str.toLowerCase())
+// let   str = " my name is sourah jatin kumar saini"
+//  console.log(str.toLowerCase())
+
+
+
+
+// let str = "sourabh"
+// console.log(str.at())
+
