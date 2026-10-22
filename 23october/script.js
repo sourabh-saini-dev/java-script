@@ -1,2 +1,2 @@
-let str = "sourabh "
-console.log(str.toLowerCase())
+// let str = "sourabh "
+// console.log(str.toLowerCase())
