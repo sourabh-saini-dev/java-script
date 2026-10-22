@@ -7,12 +7,13 @@
     // const a = 56
     // cosnst a = 67
     // console.log(a)
+    
 
 
 
 
-    const a = 56
-     a = 67
-    console.log(a)
+    // const a = 56
+    //  a = 67
+    // console.log(a)
 
 
