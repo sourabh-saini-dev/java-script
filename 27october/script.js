@@ -7,3 +7,4 @@
 //  let ans =arr.find((val,i)=> val>2)
 //  console.log(ans)
 
+
